@@ -1,6 +1,4 @@
 <script setup>
-import { ref } from "vue";
-import { onBeforeRouteLeave } from "vue-router";
 import lineStore from "../stores/lineStore";
 
 function addLine(cmd) {
